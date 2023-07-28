@@ -19,7 +19,9 @@ li > a {
 .badge {
   background-color: #165ab9;
 }
-
+.form-check {
+  border-bottom: 0.5px solid lightgray;
+}
 .sidebar {
   background-color: #051e34;
 }
