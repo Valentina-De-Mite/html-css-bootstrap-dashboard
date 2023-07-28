@@ -1,39 +1,48 @@
- .input-group {
-     width: 1200px;
+.search {
+  width: 100%;
+}
 
- }
+li > a {
+  color: white;
+}
 
+.vh-95 {
+  height: 95vh;
+}
 
- li>a {
-     color: white;
- }
+.vh-5 {
+  height: 5vh;
+}
+.faq {
+  border-bottom: 0.5px solid lightgray;
+}
+.badge {
+  background-color: #165ab9;
+}
 
+.sidebar {
+  background-color: #051e34;
+}
+.circle {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+.fa-plus {
+  border: 0.5px solid white;
+  border-radius: 1rem;
+}
+.square {
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  color: gray;
+}
+/* animation */
 
- .vh-90 {
-     height: 90vh;
- }
-
- .vh-10 {
-     height: 10vh;
- }
-
- .badge {
-     background-color: #165ab9;
- }
-
- .sidebar {
-     background-color: #051e34;
- }
-
- .fa-plus {
-     border: 0.5px solid white;
-     border-radius: 1rem;
- }
-
-
- /* animation */
-
- .nav-item:hover {
-     background-color: rgba(255, 255, 255, 0.766);
-     border-radius: 2rem;
- }
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.766);
+  border-radius: 2rem;
+}
